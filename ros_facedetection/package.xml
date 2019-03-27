@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_facedetection</name>
+  <version>0.1.0</version>
+  <description>ROS facedetection</description>
+  <license>Apache License 2.0</license>
+  <author email="dev.napier@gmail.com">Napier Kim</author>
+  <maintainer email="dev.napier@gmail.com">Napier Kim</maintainer>
+  <url type="bugtracker">https://github.com/napiera/ros-facedetection/issue</url>
+  <url type="repository">https://github.com/napiera/ros-facedetection.git</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>opencv2</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <export></export>
+</package>
